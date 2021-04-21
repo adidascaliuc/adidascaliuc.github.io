@@ -1600,10 +1600,13 @@ header .logo a {
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	transition: border-color 2s;
+	transition: transform 2s;
 }
 
 .intro-content .button:hover, .intro-content .button:focus {
 	border-color: #cc005f;
+	transform: rotate(360deg);
 }
 
 .intro-content .button::after {
@@ -1737,6 +1740,11 @@ header .logo a {
 	border-radius: 50%;
 	margin: .9rem 0 0 0;
 	float: left;
+	transition: transform 2s;
+}
+
+.intro-info:hover img {
+	transform: scale(10px);
 }
 
 .intro-info .lead {
