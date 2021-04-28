@@ -115,6 +115,8 @@ a:hover, a:focus, a:active {
 	min-width: 400px;
 	max-width: 1000px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .styled-table thead tr {
